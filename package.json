@@ -1,0 +1,17 @@
+{
+    "homepage": "https://SiriratWisessiri.github.io/Learn-React",
+    "scripts": {
+        "start": "snowpack dev",
+        "build": "snowpack build",
+        "predeploy": "npm run build",
+        "deploy": "gh-pages -d build"
+    },
+    "dependencies": {
+        "react": "^17.0.2",
+        "react-dom": "^17.0.2"
+    },
+    "devDependencies": {
+        "gh-pages": "^4.0.0",
+        "snowpack": "^3.8.8"
+    }
+}
